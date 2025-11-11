@@ -26,7 +26,7 @@ spec:
     containerBuildConfiguration:
       openShiftSecurityContextConstraint: container-build
     defaultNamespace:
-      autoProvision: true
+      autoProvision: false
       template: <username>-devspaces
     maxNumberOfWorkspacesPerUser: 5
     secondsOfInactivityBeforeIdling: 1800
