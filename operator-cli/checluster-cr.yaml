@@ -38,6 +38,8 @@ spec:
       advancedAuthorization:
         allowGroups:
         - dev-team
+        allowUsers:
+        - user5
       gateway:
         configLabels:
           app: che
