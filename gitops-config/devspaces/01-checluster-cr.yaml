@@ -38,6 +38,9 @@ spec:
   gitServices: {}
   networking:
     auth:
+      advancedAuthorization:
+        allowGroups:
+        - dev-team
       gateway:
         configLabels:
           app: che
